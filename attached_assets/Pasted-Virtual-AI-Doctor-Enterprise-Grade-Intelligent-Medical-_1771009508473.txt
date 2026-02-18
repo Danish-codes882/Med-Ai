@@ -1,0 +1,388 @@
+Virtual AI Doctor – Enterprise-Grade Intelligent Medical Platform
+
+You are a senior AI systems architect, ML engineer, backend security specialist, and advanced frontend engineer.
+
+Your task is to design and generate a fully functional, production-grade Virtual AI Doctor Web Platform.
+
+This is NOT a demo.
+This is NOT a mock.
+This is NOT a prototype.
+This must function using real scraped medical data and real ML pipelines.
+
+All components must be logically connected and operational.
+
+TECH STACK (MANDATORY)
+
+Frontend:
+
+HTML5
+
+CSS3 (Advanced animations, gradients, glassmorphism)
+
+Vanilla JavaScript only
+
+Backend:
+
+Python (Flask preferred)
+
+SQLite (structured relational DB)
+
+Machine Learning:
+
+Linear Regression
+
+Logistic Regression
+
+Clustering (K-Means or Hierarchical)
+
+Scikit-learn allowed (lightweight usage only)
+
+Web Scraping:
+
+Requests
+
+BeautifulSoup
+
+Real, structured data extraction
+
+Python Advanced Concepts:
+
+Decorators (authentication, validation, logging, rate limiting, caching)
+
+Context managers if needed
+
+Modular functions inside single backend file
+
+Do NOT create bulky file structure.
+Limit to maximum 4 files.
+
+Recommended structure:
+
+app.py
+
+index.html
+
+styles.css
+
+script.js
+
+No additional files unless absolutely required.
+
+SYSTEM OBJECTIVE
+
+Create an AI-driven virtual medical analysis platform that:
+
+Accepts:
+
+Symptoms
+
+Age
+
+Gender
+
+Pre-existing conditions
+
+Vital metrics
+
+Consultation type
+
+Scrapes real-time medical data from trusted health websites.
+
+Cleans and structures scraped data into:
+
+Disease name
+
+Associated symptoms
+
+Severity markers
+
+Recommended actions
+
+Risk indicators
+
+Trains and applies ML models dynamically:
+
+Logistic Regression → Disease probability classification
+
+Linear Regression → Severity score prediction
+
+Clustering → Symptom pattern grouping
+
+Produces:
+
+Risk Level (Low / Medium / High / Critical)
+
+Probability Score
+
+Severity Index
+
+Cluster Identification
+
+Confidence Score
+
+Emergency Flag if detected
+
+All outputs must be algorithmically derived.
+No static predefined responses.
+
+ADVANCED ARCHITECTURE REQUIREMENTS
+
+Implement a layered architecture inside limited file count:
+
+Layer 1: Request Validation Layer
+
+Input sanitization decorator
+
+Schema validation
+
+Layer 2: Authentication Layer
+
+Password hashing
+
+Session management
+
+Auth decorator
+
+Layer 3: Scraping Layer
+
+Real-time scraping
+
+Structured parsing
+
+HTML cleaning
+
+Data normalization
+
+Layer 4: Feature Engineering Layer
+
+Convert symptoms to feature vectors
+
+Encode categorical inputs
+
+Normalize numeric inputs
+
+Layer 5: ML Training + Inference Layer
+
+Train on scraped + historical stored data
+
+Persist model in memory
+
+Retrain periodically if new data collected
+
+Layer 6: Decision Fusion Engine
+Combine:
+
+Logistic probability
+
+Regression severity score
+
+Cluster proximity score
+
+Generate final structured medical advisory.
+
+Layer 7: Logging & Monitoring
+
+Decorator-based request logging
+
+Performance timing
+
+Error tracking
+
+FRONTEND DESIGN SPECIFICATIONS
+
+UI must resemble a modern AI medical chat system.
+
+Design Requirements:
+
+Animated gradient background
+
+Glassmorphism UI cards
+
+Instagram-style chat theme switching
+
+Chat bubbles (user vs system)
+
+Typing animation
+
+Animated message rendering
+
+Smooth transitions
+
+Floating action buttons
+
+Dark/light mode toggle
+
+Fully responsive
+
+No Bootstrap
+
+No heavy UI frameworks
+
+Pure CSS animations only
+
+Must look like:
+Premium health-tech SaaS dashboard.
+
+FUNCTIONAL MODULES
+
+User Authentication System
+
+Consultation Chat Interface
+
+Symptom Input Panel
+
+Real-time Scraping Engine
+
+ML Prediction Engine
+
+Cluster Visualization (text-based is acceptable)
+
+Risk Meter Indicator
+
+Confidence Score Display
+
+Consultation History Storage
+
+Admin Analytics Logging
+
+MACHINE LEARNING REQUIREMENTS
+
+Logistic Regression:
+
+Binary or multi-class disease probability classification
+
+Output probability score
+
+Linear Regression:
+
+Severity index prediction
+
+Progression trend scoring
+
+Clustering:
+
+Identify patient symptom similarity groups
+
+Assign cluster ID
+
+Use clustering result as secondary risk amplifier
+
+All ML must operate on structured features derived from real scraped data.
+
+No fake datasets.
+No hardcoded disease labels.
+No random number-based predictions.
+
+SECURITY CONSTRAINTS
+
+Implement:
+
+CSRF token handling
+
+Input validation decorator
+
+Rate limiting decorator
+
+Caching decorator for scraping
+
+SQL injection prevention
+
+XSS protection
+
+Secure password hashing
+
+Error handling middleware
+
+PERFORMANCE CONSTRAINTS
+
+Efficient scraping logic
+
+Minimal blocking calls
+
+Lightweight ML operations
+
+Clean reusable functions
+
+Avoid redundant retraining
+
+No unnecessary imports
+
+STRICT OUTPUT REQUIREMENTS
+
+Generate:
+
+Complete app.py
+
+Complete index.html
+
+Complete styles.css
+
+Complete script.js
+
+Database schema creation
+
+All decorators
+
+ML model training logic
+
+Scraping implementation
+
+Decision fusion engine
+
+Execution instructions
+
+No placeholders.
+No incomplete sections.
+No conceptual explanation without implementation.
+
+ADDITIONAL INTELLIGENCE LAYER
+
+Add:
+
+Emergency detection logic (if severe symptoms detected)
+
+Risk amplification if cluster density high
+
+Confidence calibration mechanism
+
+Advisory categorization:
+
+Self-care
+
+Schedule doctor
+
+Urgent care
+
+Emergency
+
+QUALITY STANDARD
+
+System must resemble:
+
+Funded AI health startup MVP
+
+Technically credible
+
+Architecturally sound
+
+ML-backed
+
+Real data-driven
+
+Clean UI
+
+Scalable base
+
+It must survive:
+
+Code review by senior engineers
+
+ML audit
+
+Security review
+
+Investor
+dont use demo or mock data please
+dont give simple thing i need a complete ready industry level website 
+dont make ui simple make them attractive, decorative and user frandly
+dont use emojies
